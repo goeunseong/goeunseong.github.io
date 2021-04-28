@@ -1,4 +1,11 @@
+---
+layout: single
+title: "프로그래밍 Study -1"
+---
+
 [→ Open in Slid](https://slid.cc/vdocs/3f82ab75ab6b4947a1081b59faa6ce71)
+
+
 
 
 ---
