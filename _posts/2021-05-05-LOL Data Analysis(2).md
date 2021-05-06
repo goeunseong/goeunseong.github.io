@@ -145,7 +145,7 @@ for i in cols:
     margins=True).style.background_gradient(cmap='Blues')
 ```
 
-![image-20210506134902071](C:\Users\goeunseong\AppData\Roaming\Typora\typora-user-images\image-20210506134902071.png)
+![output_22_1](https://user-images.githubusercontent.com/69621732/117245077-27f97a80-ae75-11eb-8306-b94ad2d431f0.PNG)
 
 좀 더 한눈에 알아볼 수 있도록 데이터값에 따른 승/패 누적 그래프로 나타내보았습니다.  
 첫 오브젝트를 차지할수록 승리할 확률이 높음을 알 수 있습니다.
@@ -225,13 +225,13 @@ sns.factorplot('Wins', 'FirstDragon', hue='game_part', data=blue_team, ax=ax4)
 plt.show()
 ```
 
-https://user-images.githubusercontent.com/69621732/117244635-5cb90200-ae74-11eb-9ee2-55345a73ede4.png
+![output_27_4](https://user-images.githubusercontent.com/69621732/117244635-5cb90200-ae74-11eb-9ee2-55345a73ede4.png)
 
-https://user-images.githubusercontent.com/69621732/117244648-617db600-ae74-11eb-90c5-8a5a32be4a75.png
+![output_27_5](https://user-images.githubusercontent.com/69621732/117244648-617db600-ae74-11eb-90c5-8a5a32be4a75.png)
 
-https://user-images.githubusercontent.com/69621732/117244652-62aee300-ae74-11eb-88ee-07a1e03fbd67.png
+![output_27_6](https://user-images.githubusercontent.com/69621732/117244652-62aee300-ae74-11eb-88ee-07a1e03fbd67.png)
 
-https://user-images.githubusercontent.com/69621732/117244653-63477980-ae74-11eb-8801-47a345ccfb8f.png
+![output_27_7](https://user-images.githubusercontent.com/69621732/117244653-63477980-ae74-11eb-8801-47a345ccfb8f.png)
 
 
 분석 결과, 게임 시간이 길어질수록 오브젝트에 대한 영향이 확연히 줄어드는 것을 알 수 있습니다.  
