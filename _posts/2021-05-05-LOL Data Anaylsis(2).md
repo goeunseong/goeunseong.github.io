@@ -632,7 +632,7 @@ for i in cols:
     margins=True).style.background_gradient(cmap='Blues')
 ```
 
-
+![output_22_1](https://user-images.githubusercontent.com/69621732/117247253-e7036500-ae78-11eb-9f3a-d3f24f26d77e.png)
 
 
 <style  type="text/css" >
@@ -938,7 +938,7 @@ plt.show()
 
 
     
-![png](output_22_9.png)
+![output_22_9](https://user-images.githubusercontent.com/69621732/117247259-e9fe5580-ae78-11eb-8e81-4c1ee5e1c856.png)
     
 
 
@@ -1033,31 +1033,17 @@ plt.show()
 
 
     
-![png](output_27_5.png)
+![output_27_5](https://user-images.githubusercontent.com/69621732/117247269-eec30980-ae78-11eb-9278-381008c276c5.png)  ![output_27_6](https://user-images.githubusercontent.com/69621732/117247271-ef5ba000-ae78-11eb-826b-dab3800e9a04.png)
+   
+    
+
+    
+![output_27_7](https://user-images.githubusercontent.com/69621732/117247273-eff43680-ae78-11eb-8fa8-bb416ba98517.png)  ![output_27_8](https://user-images.githubusercontent.com/69621732/117247276-eff43680-ae78-11eb-9b50-b988ae11b54a.png)
     
 
 
 
-    
-![png](output_27_6.png)
-    
-
-
-
-    
-![png](output_27_7.png)
-    
-
-
-
-    
-![png](output_27_8.png)
-    
-
-
-
-    
-![png](output_27_9.png)
+![output_27_9](https://user-images.githubusercontent.com/69621732/117247278-f08ccd00-ae78-11eb-8d33-cce033873fc2.png)
     
 
 
