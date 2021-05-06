@@ -175,7 +175,7 @@ plt.legend(bbox_to_anchor=(1.05, 1))
 plt.show()
 ```
 
-![output_22_8](C:\Users\goeunseong\Downloads\output_22_8.png)
+https://user-images.githubusercontent.com/69621732/117244624-588ce480-ae74-11eb-9430-8f6344166479.png
 
 ### 경기 시간 segment별 EDA
 
@@ -225,14 +225,13 @@ sns.factorplot('Wins', 'FirstDragon', hue='game_part', data=blue_team, ax=ax4)
 plt.show()
 ```
 
-![output_27_4](C:\Users\goeunseong\Downloads\output_27_4.png)
+https://user-images.githubusercontent.com/69621732/117244635-5cb90200-ae74-11eb-9ee2-55345a73ede4.png
 
-![output_27_5](C:\Users\goeunseong\Downloads\output_27_5.png)
+https://user-images.githubusercontent.com/69621732/117244648-617db600-ae74-11eb-90c5-8a5a32be4a75.png
 
-![output_27_6](C:\Users\goeunseong\Downloads\output_27_6.png)
+https://user-images.githubusercontent.com/69621732/117244652-62aee300-ae74-11eb-88ee-07a1e03fbd67.png
 
-![output_27_7](C:\Users\goeunseong\Downloads\output_27_7.png)
-
+https://user-images.githubusercontent.com/69621732/117244653-63477980-ae74-11eb-8801-47a345ccfb8f.png
 
 
 분석 결과, 게임 시간이 길어질수록 오브젝트에 대한 영향이 확연히 줄어드는 것을 알 수 있습니다.  
