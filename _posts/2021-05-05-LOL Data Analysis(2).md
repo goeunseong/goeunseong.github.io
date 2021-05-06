@@ -175,7 +175,7 @@ plt.legend(bbox_to_anchor=(1.05, 1))
 plt.show()
 ```
 
-https://user-images.githubusercontent.com/69621732/117244624-588ce480-ae74-11eb-9430-8f6344166479.png
+![output_22_8](https://user-images.githubusercontent.com/69621732/117244624-588ce480-ae74-11eb-9430-8f6344166479.png)
 
 ### 경기 시간 segment별 EDA
 
