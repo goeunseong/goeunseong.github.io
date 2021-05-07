@@ -511,28 +511,6 @@ plot_importance(xgb_model, title='xgboost Feature importances', ax=ax)
 
 
 
-     1)FirstBlood                    0.394179
-     2)FirstTower                    0.208968
-     3)FirstBaron                    0.159672
-     4)FirstDragon                   0.083345
-     5)FirstInhibitor                0.077399
-     6)DragonKills                   0.025801
-     7)BaronKills                    0.022731
-     8)TowerKills                    0.014368
-     9)InhibitorKills                0.013535
-    
-
-
-
-
-
-
-
-
-    (-1.0, 9.0)
-
-
-
 
     
 ![output_25_6](https://user-images.githubusercontent.com/69621732/117421197-48026a00-af59-11eb-8243-608b19e8bdc9.png)
@@ -540,23 +518,6 @@ plot_importance(xgb_model, title='xgboost Feature importances', ax=ax)
 
 
 
-
-
-    <Figure size 720x360 with 0 Axes>
-
-
-
-
-
-
-    Text(0.5, 1.0, 'Gradient Boosting Feature importances')
-
-
-
-
-
-
-    <AxesSubplot:title={'center':'Gradient Boosting Feature importances'}>
 
 
 
@@ -794,36 +755,7 @@ ax.set_xticklabels(x_labels)
 
 
 
-    Text(0.5, 1.0, 'feature_coef_graph')
-
-
-
-
-
-
-    Text(0.5, 0, 'X_features')
-
-
-
-
-
-
-    Text(0, 0.5, 'coef')
-
-
-
-
-
-
-    [Text(0, 0, 'BaronKills'),
-     Text(1, 0, 'DragonKills'),
-     Text(2, 0, 'FirstBaron'),
-     Text(3, 0, 'FirstBlood'),
-     Text(4, 0, 'FirstDragon'),
-     Text(5, 0, 'FirstInhibitor'),
-     Text(6, 0, 'FirstTower'),
-     Text(7, 0, 'InhibitorKills'),
-     Text(8, 0, 'TowerKills')]
+    
 
 
 
