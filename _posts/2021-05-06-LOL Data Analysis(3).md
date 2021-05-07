@@ -525,40 +525,6 @@ plot_importance(xgb_model, title='xgboost Feature importances', ax=ax)
 
 
 
-    Text(0.5, 1.0, '랜덤포레스트 Feature Importances')
-
-
-
-
-
-
-    <BarContainer object of 9 artists>
-
-
-
-
-
-
-    ([<matplotlib.axis.XTick at 0x29eab1b5fa0>,
-      <matplotlib.axis.XTick at 0x29eab1b5070>,
-      <matplotlib.axis.XTick at 0x29eab1b3e50>,
-      <matplotlib.axis.XTick at 0x29ea9fd59a0>,
-      <matplotlib.axis.XTick at 0x29ea9fd5eb0>,
-      <matplotlib.axis.XTick at 0x29ea9fdd400>,
-      <matplotlib.axis.XTick at 0x29ea9fdd910>,
-      <matplotlib.axis.XTick at 0x29ea9fdde20>,
-      <matplotlib.axis.XTick at 0x29ea9fe3370>],
-     [Text(0, 0, 'FirstBlood'),
-      Text(1, 0, 'FirstTower'),
-      Text(2, 0, 'FirstBaron'),
-      Text(3, 0, 'FirstDragon'),
-      Text(4, 0, 'FirstInhibitor'),
-      Text(5, 0, 'DragonKills'),
-      Text(6, 0, 'BaronKills'),
-      Text(7, 0, 'TowerKills'),
-      Text(8, 0, 'InhibitorKills')])
-
-
 
 
 
