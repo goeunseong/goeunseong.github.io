@@ -36,19 +36,7 @@ blue_team.head()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -169,19 +157,7 @@ blue_team[['Wins', 'FirstBlood', 'FirstTower',
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -370,7 +346,7 @@ plot_hist_each_column(df)
 
 
     
-![png](output_12_0.png)
+![output_12_0](https://user-images.githubusercontent.com/69621732/117421194-4769d380-af59-11eb-8a9e-002a40d6d444.png)
     
 
 
@@ -592,7 +568,7 @@ plot_importance(xgb_model, title='xgboost Feature importances', ax=ax)
 
 
     
-![png](output_25_6.png)
+![output_25_6](https://user-images.githubusercontent.com/69621732/117421197-48026a00-af59-11eb-8243-608b19e8bdc9.png)
     
 
 
@@ -619,7 +595,7 @@ plot_importance(xgb_model, title='xgboost Feature importances', ax=ax)
 
 
     
-![png](output_25_10.png)
+![output_25_10](https://user-images.githubusercontent.com/69621732/117421198-489b0080-af59-11eb-8719-a80eb517778f.png)
     
 
 
@@ -632,7 +608,7 @@ plot_importance(xgb_model, title='xgboost Feature importances', ax=ax)
 
 
     
-![png](output_25_12.png)
+![output_25_12](https://user-images.githubusercontent.com/69621732/117421202-489b0080-af59-11eb-8615-f75b53fa4a3b.png)
     
 
 
@@ -658,19 +634,7 @@ blue_team.drop(['gameId', 'gameDuration'], axis=1).corr()[['Wins']]
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -898,7 +862,7 @@ ax.set_xticklabels(x_labels)
 
 
     
-![png](output_34_4.png)
+![output_34_4](https://user-images.githubusercontent.com/69621732/117421204-49339700-af59-11eb-9331-8f8ed7fcac40.png)
     
 
 
@@ -922,7 +886,7 @@ plt.show()
 
 
     
-![png](output_36_0.png)
+![output_36_0](https://user-images.githubusercontent.com/69621732/117421205-49339700-af59-11eb-8c49-9a908d6ec1ac.png)
     
 
 
@@ -942,19 +906,7 @@ vif.round()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1147,19 +1099,7 @@ vif.round()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
