@@ -1,3 +1,9 @@
+---
+layout: single
+title: APP 순위 예측 모델
+---
+
+
 ```python
 import pandas as pd
 import numpy as np
