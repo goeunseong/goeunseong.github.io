@@ -32,19 +32,7 @@ df.head()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -175,19 +163,7 @@ df.describe()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -350,7 +326,7 @@ plot_hist_each_column(scaled_df)
 
 
     
-![png](output_12_0.png)
+![output_12_0](https://user-images.githubusercontent.com/69621732/119501423-d07b6a00-bda3-11eb-8ac3-d7c4107a4300.png)
     
 
 
@@ -380,13 +356,13 @@ plt.show()
 
 
     
-![png](output_14_0.png)
+![output_14_0](https://user-images.githubusercontent.com/69621732/119501431-d1ac9700-bda3-11eb-8751-ef8e88e20c14.png)
     
 
 
 
     
-![png](output_14_1.png)
+![output_14_1](https://user-images.githubusercontent.com/69621732/119501435-d2452d80-bda3-11eb-9b20-25db05422da3.png)
     
 
 
@@ -820,7 +796,7 @@ plot_train_history(multi_step_history, 'Multi-Step Training and validation loss'
 
 
     
-![png](output_35_0.png)
+![output_35_0](https://user-images.githubusercontent.com/69621732/119501441-d3765a80-bda3-11eb-8abe-11eb03c40f25.png)
     
 
 
@@ -843,7 +819,7 @@ pred_vis('LSTM', y_val_multi_vis[5], pred[5])
 
 
     
-![png](output_37_0.png)
+![output_37_0](https://user-images.githubusercontent.com/69621732/119501444-d3765a80-bda3-11eb-9954-54fc69140121.png)
     
 
 
@@ -889,31 +865,35 @@ for x, y in vis_data.take(5):
 
 
     
-![png](output_41_0.png)
-    
+![output_41_0](https://user-images.githubusercontent.com/69621732/119501445-d40ef100-bda3-11eb-8564-f564157249ef.png)
 
 
 
-    
-![png](output_41_1.png)
-    
 
 
 
-    
-![png](output_41_2.png)
-    
+![output_41_1](https://user-images.githubusercontent.com/69621732/119501449-d4a78780-bda3-11eb-9555-8f7dc4f8457a.png)
 
 
 
-    
-![png](output_41_3.png)
-    
 
 
 
-    
-![png](output_41_4.png)
+![output_41_2](https://user-images.githubusercontent.com/69621732/119501453-d4a78780-bda3-11eb-9acd-797c882cb742.png)
+
+
+
+
+
+
+![output_41_3](https://user-images.githubusercontent.com/69621732/119501454-d5401e00-bda3-11eb-93cb-699ff1db364a.png)
+
+
+
+
+
+
+![output_41_4](https://user-images.githubusercontent.com/69621732/119501455-d5d8b480-bda3-11eb-8b35-114accf289c4.png)
     
 
 
@@ -946,20 +926,7 @@ Y3_rank_df
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1431,7 +1398,7 @@ plot_train_history(multi_step_history, 'Multi-Step Training and validation loss'
 
 
     
-![png](output_54_0.png)
+![output_54_0](https://user-images.githubusercontent.com/69621732/119501459-d5d8b480-bda3-11eb-9a20-79291f3582d8.png)
     
 
 
@@ -1448,7 +1415,7 @@ pred_vis('LSTM', UU_y_val_multi_vis[5], pred[5])
 
 
     
-![png](output_55_0.png)
+![output_55_0](https://user-images.githubusercontent.com/69621732/119501460-d6714b00-bda3-11eb-9592-ec2cb230331d.png)
     
 
 
@@ -1470,31 +1437,35 @@ for x, y in vis_data.take(5):
 
 
     
-![png](output_57_0.png)
-    
+![output_57_0](https://user-images.githubusercontent.com/69621732/119501461-d6714b00-bda3-11eb-9fb9-e2ca395e6863.png)
 
 
 
-    
-![png](output_57_1.png)
-    
 
 
 
-    
-![png](output_57_2.png)
-    
+![output_57_1](https://user-images.githubusercontent.com/69621732/119501462-d709e180-bda3-11eb-8e80-432f137396ad.png)
 
 
 
-    
-![png](output_57_3.png)
-    
 
 
 
-    
-![png](output_57_4.png)
+![output_57_2](https://user-images.githubusercontent.com/69621732/119501464-d7a27800-bda3-11eb-990e-44266b546c9e.png)
+
+
+
+
+
+
+![output_57_3](https://user-images.githubusercontent.com/69621732/119501466-d7a27800-bda3-11eb-8418-125469dd0d11.png)
+
+
+
+
+
+
+![output_57_4](https://user-images.githubusercontent.com/69621732/119501467-d83b0e80-bda3-11eb-92e5-79587e130adb.png)
     
 
 
@@ -1527,20 +1498,7 @@ Y3_UU_df
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -2001,7 +1959,7 @@ plot_train_history(multi_step_history, 'Multi-Step Training and validation loss'
 
 
     
-![png](output_67_0.png)
+![output_67_0](https://user-images.githubusercontent.com/69621732/119501469-d83b0e80-bda3-11eb-999d-6e090f6443a6.png)
     
 
 
@@ -2018,7 +1976,7 @@ pred_vis('LSTM', avg_y_val_multi_vis[5], pred[5])
 
 
     
-![png](output_68_0.png)
+![output_68_0](https://user-images.githubusercontent.com/69621732/119501471-d8d3a500-bda3-11eb-834a-4413736fc449.png)
     
 
 
@@ -2037,31 +1995,35 @@ for x, y in vis_data.take(5):
 
 
     
-![png](output_69_0.png)
-    
+![output_69_0](https://user-images.githubusercontent.com/69621732/119501472-d8d3a500-bda3-11eb-9c5b-e82ab86dc351.png)
 
 
 
-    
-![png](output_69_1.png)
-    
 
 
 
-    
-![png](output_69_2.png)
-    
+![output_69_1](https://user-images.githubusercontent.com/69621732/119501473-d96c3b80-bda3-11eb-85bd-df2c3264bdfa.png)
 
 
 
-    
-![png](output_69_3.png)
-    
 
 
 
-    
-![png](output_69_4.png)
+![output_69_2](https://user-images.githubusercontent.com/69621732/119501475-da04d200-bda3-11eb-9bc0-4ea18ae37b08.png)
+
+
+
+
+
+
+![output_69_3](https://user-images.githubusercontent.com/69621732/119501477-da04d200-bda3-11eb-9069-f1775abd7caa.png)
+
+
+
+
+
+
+![output_69_4](https://user-images.githubusercontent.com/69621732/119501479-da9d6880-bda3-11eb-8a2e-f3fdf89059ed.png)
     
 
 
@@ -2091,20 +2053,7 @@ Y3_avg_df
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -2561,7 +2510,7 @@ plot_train_history(multi_step_history, 'Multi-Step Training and validation loss'
 
 
     
-![png](output_78_0.png)
+![output_78_0](https://user-images.githubusercontent.com/69621732/119501483-da9d6880-bda3-11eb-8244-fb06f53bd159.png)
     
 
 
@@ -2578,7 +2527,7 @@ pred_vis('LSTM', avg_y_val_multi_vis[5], pred[5])
 
 
     
-![png](output_79_0.png)
+![output_79_0](https://user-images.githubusercontent.com/69621732/119501484-db35ff00-bda3-11eb-9d93-489853faeaf9.png)
     
 
 
@@ -2597,31 +2546,36 @@ for x, y in vis_data.take(5):
 
 
     
-![png](output_80_0.png)
-    
+![output_80_0](https://user-images.githubusercontent.com/69621732/119501486-dbce9580-bda3-11eb-829f-c79d2b13d624.png)
 
 
 
-    
-![png](output_80_1.png)
-    
 
 
 
-    
-![png](output_80_2.png)
-    
+![output_80_1](https://user-images.githubusercontent.com/69621732/119501490-dbce9580-bda3-11eb-9b60-08d41f614f05.png)
 
 
 
-    
-![png](output_80_3.png)
-    
 
 
 
-    
-![png](output_80_4.png)
+
+![output_80_2](https://user-images.githubusercontent.com/69621732/119501492-dc672c00-bda3-11eb-88fe-baa37f0687da.png)
+
+
+
+
+
+
+![output_80_3](https://user-images.githubusercontent.com/69621732/119501493-dc672c00-bda3-11eb-9543-dd65cd21b717.png)
+
+
+
+
+
+
+![output_80_4](https://user-images.githubusercontent.com/69621732/119501494-dcffc280-bda3-11eb-8773-53b6ada43f13.png)
     
 
 
@@ -2651,20 +2605,7 @@ Y3_day_df
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
